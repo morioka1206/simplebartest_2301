@@ -1,6 +1,10 @@
+body {
+  overflow: hidden;
+}
+
 .simple_bar {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 120vh;
   background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
