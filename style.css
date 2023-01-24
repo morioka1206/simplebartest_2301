@@ -5,13 +5,12 @@
 
 body {
   overflow: hidden;
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(176, 223, 171) 63%, rgb(148, 233, 231) 85%);
 }
 
 .simple_bar {
   width: 100%;
   height: auto;
-  background: rgb(238, 174, 202);
-  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(176, 223, 171) 63%, rgb(148, 233, 231) 85%);
   display: grid;
   place-content: center;
   padding: 50px 0;

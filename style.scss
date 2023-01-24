@@ -5,18 +5,17 @@
 
 body {
   overflow: hidden;
-}
-
-.simple_bar {
-  width: 100%;
-  height: auto;
-  background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
     rgba(238, 174, 202, 1) 0%,
     rgba(176, 223, 171, 1) 63%,
     rgba(148, 233, 231, 1) 85%
   );
+}
+
+.simple_bar {
+  width: 100%;
+  height: auto;
   display: grid;
   place-content: center;
   padding: 50px 0;
